@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+cin >>n1;
+vec.clear();
+vec.resize(n1,0);
+for(int q=0;q<n1;q++){
+  cin >> vec[q];
+}
+]]></content>
+  <tabTrigger>arr</tabTrigger>
+  <description>Array</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope >source.python</scope > -->
+</snippet>

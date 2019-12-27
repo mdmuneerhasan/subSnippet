@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+
+int row,col;
+cin >>row >> col;
+vector<vector<int>> arr2;
+arr2.resize(row,vector<int>(col,0));
+for(int q=0;q<row;q++){
+  for(int r=0;r<col;r++){
+    cin  >> arr2[q][r];
+  }
+}
+]]></content>
+  <tabTrigger>arr2</tabTrigger>
+  <description>2D Array</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope >source.python</scope > -->
+</snippet>

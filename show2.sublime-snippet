@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+
+for(int q=0;q<arr2.size();q++){
+  for(int r=0;r<arr2[0].size();r++){
+    cout  << arr2[q][r]<<" ";
+  }
+  cout <<endl;
+}
+cout << endl;
+]]></content>
+  <tabTrigger>show2</tabTrigger>
+  <description>show 2D Array</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope >source.python</scope > -->
+</snippet>

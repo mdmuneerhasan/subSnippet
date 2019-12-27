@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+q=0;
+for(auto x:vec){
+    cout <<q++<<":"<< x<<endl;
+}
+cout <<endl;
+
+]]></content>
+  <tabTrigger>showln</tabTrigger>
+  <description>show arr lineWise</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope >source.python</scope > -->
+</snippet>

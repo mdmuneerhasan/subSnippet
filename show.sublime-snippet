@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+q=0;
+for(auto x:vec){
+    cout <<q++<<":"<< x<<", ";
+}
+cout <<endl;
+
+]]></content>
+  <tabTrigger>show</tabTrigger>
+  <description>show Array</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope >source.python</scope > -->
+</snippet>
