@@ -1,0 +1,42 @@
+<snippet>
+  <content><![CDATA[
+struct Node
+{
+    int data;
+    Node * left;
+    Node * right;
+    Node(){
+        left=NULL;
+        right=NULL;
+    }
+};
+Node * build(){
+    Node * node=new Node();
+    cin >>node->data;
+    string left,right;
+    cin >> left;
+    if(left.compare("true")==0){
+        node->left=build();
+        // cout << node->left->data;
+    }
+    cin >> right;
+    if(right.compare("true")==0){
+        node->right=build();
+        // cout << node->right->data;
+    }
+    return node;
+}
+void print(Node * node,string indent="",string child=""){
+    if(node==NULL)return;
+    cout <<"\n"<<indent<<"`---"<< node->data;
+    if(child.size()!=0)cout<<'{'<<child<<"}";
+    print(node->left,"\t"+indent,"l");
+    print(node->right,"\t"+indent,"r");
+    return;
+}
+]]></content>
+  <tabTrigger>binarytree</tabTrigger>
+  <description>draw Tree</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope >source.python</scope > -->
+</snippet>
