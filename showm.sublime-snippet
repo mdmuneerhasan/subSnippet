@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+for(auto x:${1:dp}){
+    cout << x.first <<":"<<x.second<<endl;
+}
+]]></content>
+  <tabTrigger>showm</tabTrigger>
+  <description>print map</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope >source.python</scope > -->
+</snippet>
